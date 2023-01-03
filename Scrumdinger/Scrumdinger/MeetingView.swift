@@ -29,6 +29,7 @@ struct MeetingView: View {
             .accessibilityValue("10 minutes")
             Circle()
                 .strokeBorder(lineWidth: 24)
+
             Spacer()
             HStack {
                 Text("Speaker 1 of 3")
@@ -39,7 +40,9 @@ struct MeetingView: View {
                 .accessibilityLabel("Next speaker")
             }
             
-        }.padding()
+        }
+        .padding()
+        
         
     }
 }
