@@ -12,7 +12,9 @@ struct ScrumdingerApp: App {
     var body: some Scene {
 //        Make initional view for the app
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            NavigationView {
+                ScrumsView(scrums: DailyScrum.sampleData)
+            }
         }
     }
 }
