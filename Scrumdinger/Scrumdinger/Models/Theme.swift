@@ -33,6 +33,6 @@ case bubblegum
         }
     }
     var mainColor: Color {
-       return Color(rawValue)
+        return Color(self.rawValue)
     }
 }
