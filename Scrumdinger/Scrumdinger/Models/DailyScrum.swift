@@ -27,6 +27,16 @@ extension DailyScrum {
         let id = UUID()
         var name: String
     }
+    
+    struct Data {
+        var title: String = ""
+        var attendees: [Atendee] = []
+        var lengthInMinutes: Double = 0.0
+        var theme: Theme = .seafoam
+    }
+    var data: Data {
+        Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+    }
 }
 
 extension DailyScrum {
