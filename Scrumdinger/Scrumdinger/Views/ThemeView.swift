@@ -15,7 +15,7 @@ struct ThemeView: View {
             RoundedRectangle(cornerRadius: 4)
                 .fill(theme.mainColor)
             Label(theme.name, systemImage: "paintpalette")
-                .padding(4)
+                .padding(8)
         }
         .foregroundColor(theme.accentColor)
         .fixedSize(horizontal: false, vertical: true)
@@ -25,6 +25,6 @@ struct ThemeView: View {
 
 struct ThemeView_Previews: PreviewProvider {
     static var previews: some View {
-        ThemeView(theme: .buttercup)
+        ThemeView(theme: .sky)
     }
 }
