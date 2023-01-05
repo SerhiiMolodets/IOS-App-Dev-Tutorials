@@ -16,12 +16,12 @@ struct ThemePicker: View {
             ForEach(Theme.allCases) { theme in
                 ThemeView(theme: theme)
                     .tag(theme)
+    
             }
         } label: {
-            ThemeView(theme: selection)
+            Text("Theme")
         }
-
-        
+        .pickerStyle(.navigationLink)
     }
 }
 
