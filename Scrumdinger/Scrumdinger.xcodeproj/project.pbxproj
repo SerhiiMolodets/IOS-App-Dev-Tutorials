@@ -27,6 +27,7 @@
 		083C5E112965E4920027009D /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C5E102965E4920027009D /* DetailEditView.swift */; };
 		083C5E132965F31F0027009D /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C5E122965F31F0027009D /* ThemeView.swift */; };
 		083C5E152965F66F0027009D /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C5E142965F66F0027009D /* ThemePicker.swift */; };
+		085FF1F3296CAB7600DC77C9 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085FF1F2296CAB7600DC77C9 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		083C5E102965E4920027009D /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		083C5E122965F31F0027009D /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		083C5E142965F66F0027009D /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		085FF1F2296CAB7600DC77C9 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				082B3157296B3582004D23AC /* ScrumTimer.swift */,
 				082B315B296B486B004D23AC /* AVPlayer+Ding.swift */,
 				082B3162296B67A5004D23AC /* History.swift */,
+				085FF1F2296CAB7600DC77C9 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				083C5E152965F66F0027009D /* ThemePicker.swift in Sources */,
 				082B315629688AE4004D23AC /* ScrumProgressViewStyle.swift in Sources */,
 				082B315A296B4072004D23AC /* MeetingFooterView.swift in Sources */,
+				085FF1F3296CAB7600DC77C9 /* ScrumStore.swift in Sources */,
 				082B3158296B3582004D23AC /* ScrumTimer.swift in Sources */,
 				0816903F2964C14600AAE1A6 /* DailyScrum.swift in Sources */,
 				081690482964E63D00AAE1A6 /* DetailView.swift in Sources */,
