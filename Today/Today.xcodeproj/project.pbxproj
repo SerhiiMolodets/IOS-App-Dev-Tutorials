@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0869BDFF298FDDCE00050B72 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869BDFE298FDDCE00050B72 /* ReminderViewController+Section.swift */; };
 		08C070CE298AF5E2003C7B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C070CD298AF5E2003C7B98 /* AppDelegate.swift */; };
 		08C070D0298AF5E2003C7B98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C070CF298AF5E2003C7B98 /* SceneDelegate.swift */; };
 		08C070D2298AF5E2003C7B98 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C070D1298AF5E2003C7B98 /* ReminderListViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0869BDFE298FDDCE00050B72 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 		08C070CA298AF5E2003C7B98 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C070CD298AF5E2003C7B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C070CF298AF5E2003C7B98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				08D69B30298C5DE200CD3FB6 /* ReminderViewController.swift */,
 				08D69B33298C5FF400CD3FB6 /* ReminderViewController+Row.swift */,
+				0869BDFE298FDDCE00050B72 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0869BDFF298FDDCE00050B72 /* ReminderViewController+Section.swift in Sources */,
 				08C070D2298AF5E2003C7B98 /* ReminderListViewController.swift in Sources */,
 				08D69B2F298C47DE00CD3FB6 /* ReminderListViewController+Actions.swift in Sources */,
 				08D69B31298C5DE200CD3FB6 /* ReminderViewController.swift in Sources */,
