@@ -27,8 +27,6 @@ struct ScrumProgressViewStyle: ProgressViewStyle {
             }
         }
     }
-    
-
 }
 
 struct ScrumProgressViewStyle_Previews: PreviewProvider {
